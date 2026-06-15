@@ -146,7 +146,7 @@ export function AboutPage() {
 
           {/* Map card */}
           <ScaleUp>
-            <div className="relative aspect-video bg-[#1c1b1c] rounded-[24px] overflow-hidden border border-white/5">
+            <div className="relative aspect-auto min-h-[360px] sm:aspect-video bg-[#1c1b1c] rounded-[24px] overflow-hidden border border-white/5">
               {/* Map background */}
               <img
                 src={imgWorldMap}
@@ -155,8 +155,8 @@ export function AboutPage() {
               />
 
               {/* Stats overlay */}
-              <div className="absolute inset-0 flex flex-col items-center justify-center gap-8 p-8">
-                <Stagger className="grid grid-cols-2 sm:grid-cols-4 gap-6 sm:gap-12 w-full max-w-[1024px]">
+              <div className="absolute inset-0 flex flex-col items-center justify-center gap-6 sm:gap-8 p-6 sm:p-8">
+                <Stagger className="grid grid-cols-2 sm:grid-cols-4 gap-4 sm:gap-12 w-full max-w-[1024px]">
                   {[
                     { val: "42+", label: "DESTINATIONS" },
                     { val: "12M+", label: "KG ANNUALLY" },
@@ -165,17 +165,17 @@ export function AboutPage() {
                   ].map((s, i) => (
                     <StaggerItem key={i}>
                       <div className="flex flex-col items-center gap-2">
-                        <p className="font-bold text-[#00dbe9] text-[36px] sm:text-[48px] leading-[1.0] text-center">{s.val}</p>
-                        <p className="font-bold text-[rgba(229,226,227,0.5)] text-[11px] tracking-[1.8px] text-center">{s.label}</p>
+                        <p className="font-bold text-[#00dbe9] text-[32px] sm:text-[48px] leading-[1.0] text-center">{s.val}</p>
+                        <p className="font-bold text-[rgba(229,226,227,0.5)] text-[10px] sm:text-[11px] tracking-[1.5px] sm:tracking-[1.8px] text-center">{s.label}</p>
                       </div>
                     </StaggerItem>
                   ))}
                 </Stagger>
 
                 {/* Live tracking badge */}
-                <div className="backdrop-blur-[10px] bg-white/[0.03] border border-[rgba(0,219,233,0.2)] rounded-full px-6 py-3 flex items-center gap-3">
+                <div className="backdrop-blur-[10px] bg-white/[0.03] border border-[rgba(0,219,233,0.2)] rounded-full px-5 sm:px-6 py-2.5 sm:py-3 flex items-center gap-3">
                   <div className="size-2 rounded-full bg-[#00dbe9] shadow-[0_0_6px_#00dbe9]" />
-                  <span className="font-bold text-[#e5e2e3] text-[12px] tracking-[1.8px]">LIVE EXPORT TRACKING ACTIVE</span>
+                  <span className="font-bold text-[#e5e2e3] text-[11px] sm:text-[12px] tracking-[1.5px] sm:tracking-[1.8px]">LIVE EXPORT TRACKING ACTIVE</span>
                 </div>
               </div>
             </div>

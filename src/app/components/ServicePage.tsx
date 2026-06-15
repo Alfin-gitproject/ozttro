@@ -187,29 +187,29 @@ function LogisticsMonitoring() {
 
             {/* Right — shipment card */}
             <FadeRight>
-              <div className="bg-[#080808] border border-white/5 rounded-[16px] p-8 flex flex-col gap-8 shadow-[0_25px_50px_-12px_rgba(0,0,0,0.25)]">
+              <div className="bg-[#080808] border border-white/5 rounded-[16px] p-5 sm:p-8 flex flex-col gap-6 sm:gap-8 shadow-[0_25px_50px_-12px_rgba(0,0,0,0.25)]">
                 {/* Header */}
-                <div className="flex items-center justify-between">
-                  <span className="font-['Manrope'] font-normal text-[rgba(229,226,227,0.5)] text-[10px] tracking-[2px] uppercase">
+                <div className="flex items-center justify-between gap-2">
+                  <span className="font-['Manrope'] font-normal text-[rgba(229,226,227,0.5)] text-[9px] sm:text-[10px] tracking-[1.5px] sm:tracking-[2px] uppercase truncate">
                     ACTIVE SHIPMENT: #OZT-7822
                   </span>
-                  <span className="bg-[#003e42] text-[#00b1bd] font-['Manrope'] font-bold text-[10px] px-3 py-1 rounded-[4px]">
+                  <span className="bg-[#003e42] text-[#00b1bd] font-['Manrope'] font-bold text-[9px] sm:text-[10px] px-2.5 sm:px-3 py-1 rounded-[4px] shrink-0">
                     IN TRANSIT
                   </span>
                 </div>
 
                 {/* Origin → Destination */}
-                <div className="flex items-end justify-between gap-4">
+                <div className="flex items-center justify-between gap-2 sm:gap-4">
                   <div>
-                    <p className="font-['Manrope'] font-normal text-[rgba(196,198,211,0.5)] text-[12px] leading-[18px]">Origin</p>
-                    <p className="font-['Manrope'] font-semibold text-[#e5e2e3] text-[24px] md:text-[32px] tracking-[-0.32px] leading-[1.25]">Kochi, IN</p>
+                    <p className="font-['Manrope'] font-normal text-[rgba(196,198,211,0.5)] text-[11px] sm:text-[12px] leading-[18px]">Origin</p>
+                    <p className="font-['Manrope'] font-semibold text-[#e5e2e3] text-[16px] sm:text-[24px] md:text-[32px] tracking-[-0.32px] leading-[1.25] whitespace-nowrap">Kochi, IN</p>
                   </div>
-                  <svg className="w-5 h-8 shrink-0 mb-1" viewBox="0 0 20 30" fill="none">
+                  <svg className="w-5 h-8 shrink-0 opacity-80" viewBox="0 0 20 30" fill="none">
                     <path d={svgPaths.p9d63b80} fill="#B5C4FF" />
                   </svg>
                   <div className="text-right">
-                    <p className="font-['Manrope'] font-normal text-[rgba(196,198,211,0.5)] text-[12px] leading-[18px]">Destination</p>
-                    <p className="font-['Manrope'] font-semibold text-[#e5e2e3] text-[24px] md:text-[32px] tracking-[-0.32px] leading-[1.25]">Rotterdam, NL</p>
+                    <p className="font-['Manrope'] font-normal text-[rgba(196,198,211,0.5)] text-[11px] sm:text-[12px] leading-[18px]">Destination</p>
+                    <p className="font-['Manrope'] font-semibold text-[#e5e2e3] text-[16px] sm:text-[24px] md:text-[32px] tracking-[-0.32px] leading-[1.25] whitespace-nowrap">Rotterdam, NL</p>
                   </div>
                 </div>
 
