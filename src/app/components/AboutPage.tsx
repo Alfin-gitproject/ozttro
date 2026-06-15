@@ -110,7 +110,7 @@ export function AboutPage() {
                 </svg>
                 <h2 className="font-semibold text-[#b5c4ff] text-[28px] md:text-[32px] tracking-[-0.32px] leading-[1.25] relative z-10">Our Mission</h2>
                 <p className="font-normal text-[#c4c6d3] text-[16px] md:text-[18px] leading-[29px] relative z-10">
-                  To architect a transparent, high-efficiency spice supply chain that empowers local cultivators while delivering unparalleled purity and flavor profiles to global food manufacturers and luxury retailers.
+                  To architect a transparent, high-efficiency spice supply chain that empower local cultivators while delivering unparalleled purity and flavor profiles to global food manufacturers and luxury retailers.
                 </p>
               </motion.div>
             </FadeLeft>
