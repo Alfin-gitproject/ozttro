@@ -61,15 +61,15 @@ export function AboutPage() {
               <div className="flex flex-col gap-6">
                 <FadeUp>
                   <h1 className="font-bold text-[#e5e2e3] text-[36px] md:text-[48px] tracking-[-0.96px] leading-[1.15]">
-                    Built For International Trade.
+                    Built for Global Trade.
                   </h1>
                 </FadeUp>
                 <div className="flex flex-col gap-6 text-[#c4c6d3] text-[15px] md:text-[16px] leading-[24px]">
                   <p>
-                    OZTTRO began with a singular vision: to bridge the gap between India's rich agricultural heritage and the rigorous demands of the global luxury market. We don't just export spices; we export a standard of excellence that spans the entire value chain.
+                    OZTTRO connects India's finest spices with customers around the world. We focus on delivering high-quality products, reliable service, and smooth international trade.
                   </p>
                   <p>
-                    Our infrastructure is designed for high-volume, precision logistics. From state-of-the-art processing facilities in the heart of spice-growing regions to a sophisticated digital tracking ecosystem, every kilogram of OZTTRO spice is a testament to technological integration and traditional mastery.
+                    With modern processing facilities, strict quality control, and efficient logistics, we ensure every shipment meets global standards. From sourcing to delivery, we combine advanced technology with industry expertise to provide a trusted and seamless export experience.
                   </p>
                 </div>
               </div>
@@ -110,7 +110,7 @@ export function AboutPage() {
                 </svg>
                 <h2 className="font-semibold text-[#b5c4ff] text-[28px] md:text-[32px] tracking-[-0.32px] leading-[1.25] relative z-10">Our Mission</h2>
                 <p className="font-normal text-[#c4c6d3] text-[16px] md:text-[18px] leading-[29px] relative z-10">
-                  To architect a transparent, high-efficiency spice supply chain that empower local cultivators while delivering unparalleled purity and flavor profiles to global food manufacturers and luxury retailers.
+                  To create a reliable and transparent spice supply chain that supports local farmers while delivering high-quality, pure, and flavorful spices to customers around the world.
                 </p>
               </motion.div>
             </FadeLeft>
@@ -127,7 +127,8 @@ export function AboutPage() {
                 </svg>
                 <h2 className="font-semibold text-[#00dbe9] text-[28px] md:text-[32px] tracking-[-0.32px] leading-[1.25] relative z-10">Our Vision</h2>
                 <p className="font-normal text-[#c4c6d3] text-[16px] md:text-[18px] leading-[29px] relative z-10">
-                  To be the global benchmark for spice excellence, where the name OZTTRO is synonymous with innovation, ethical sourcing, and the definitive standard of sensory quality across all 7 continents.
+
+                  To become a trusted global leader in the spice industry, known for quality, innovation, ethical sourcing, and delivering the finest spices to customers worldwide.
                 </p>
               </motion.div>
             </FadeRight>
@@ -201,16 +202,16 @@ export function AboutPage() {
           <Stagger className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 md:gap-12">
             {[
               {
-                title: "Uncompromising Ethics",
-                desc: "We operate with radical transparency, ensuring that every partner in our ecosystem is treated with dignity and fairness.",
+                title: "Uncompromising Ethics ",
+                desc: "We work with complete transparency and treat every partner with respect and fairness.",
               },
               {
-                title: "Technological Foresight",
-                desc: "Integrating AI and blockchain to forecast market trends and secure immutable supply chain data.",
+                title: "Smart Technology",
+                desc: "We use AI and modern technology to predict market trends and improve supply chain tracking.",
               },
               {
                 title: "Heritage Mastery",
-                desc: "Protecting the ancient wisdom of Indian spice cultivation through modern scientific validation.",
+                desc: "We combine traditional Indian spice-growing knowledge with modern quality standards to deliver the best products.",
               },
             ].map((v, i) => (
               <StaggerItem key={i}>

@@ -25,33 +25,33 @@ function IconBox({ d, vw, teal }: { d: string; vw: string; teal?: boolean }) {
 const services = [
   {
     d: svgPaths.p1901f300, vw: "0 0 27.5 27.5", teal: false,
-    title: "Premium Spice Exporting",
-    desc: "World-class export of AAA-grade spices including Cardamom, Turmeric, and Black Pepper with verified origins.",
+    title: "Premium Spice Exports",
+    desc: "Exporting high-quality spices like Cardamom, Turmeric, and Black Pepper from trusted sources.",
   },
   {
     d: svgPaths.p29083e80, vw: "0 0 25 25", teal: true,
-    title: "Strategic Global Sourcing",
-    desc: "A vast network of farmers and cooperatives across multiple continents, securing direct-from-origin pricing.",
+    title: "Global Sourcing Network",
+    desc: "Working directly with farmers and cooperatives to ensure quality products at competitive prices.",
   },
   {
     d: svgPaths.p1ec38700, vw: "0 0 20 25", teal: false,
     title: "Export Documentation",
-    desc: "Full handling of international customs, phytosanitary requirements, and trade finance documentation.",
+    desc: " Managing customs paperwork, quality certificates, and export documents for smooth international trade.",
   },
   {
     d: svgPaths.pc00c480, vw: "0 0 27.5 20", teal: true,
     title: "International Logistics",
-    desc: "End-to-end supply chain management with priority shipping lanes and real-time shipment monitoring.",
+    desc: " Reliable shipping with complete tracking from dispatch to delivery.",
   },
   {
     d: svgPaths.peca8400, vw: "0 0 25 22.5", teal: false,
-    title: "Quality & Processing",
-    desc: "Climate-controlled processing units ensuring the highest purity standards and laboratory testing.",
+    title: "Quality Processing",
+    desc: " Modern processing and testing to ensure purity, freshness, and consistent quality.",
   },
   {
     d: svgPaths.pe8b9c80, vw: "0 0 25 20", teal: true,
-    title: "Private Label & Bulk",
-    desc: "Customized packaging and private labeling services for global retail chains and hospitality giants.",
+    title: "Private Label & Bulk Supply ",
+    desc: " Custom packaging and private labeling solutions for wholesalers, retailers, and hospitality businesses.",
   },
 ];
 
@@ -96,11 +96,11 @@ function CoreExportServices() {
 /* ─── Section 2 — Who We Serve Globally ────────────────────── */
 const partners = [
   { d: svgPaths.p3eedaa00, vw: "0 0 30.1408 27", teal: false, label: "FOOD DISTRIBUTORS" },
-  { d: svgPaths.p3399c200, vw: "0 0 25.5 24",   teal: true,  label: "SPICE BRANDS" },
-  { d: svgPaths.pbe0f218,  vw: "0 0 32.9636 28.5", teal: false, label: "RETAIL CHAINS" },
-  { d: svgPaths.pc611100,  vw: "0 0 30 27",     teal: true,  label: "WHOLESALE MARKETS" },
-  { d: svgPaths.p36df7c0,  vw: "0 0 30 27",     teal: false, label: "IMPORT COMPANIES" },
-  { d: svgPaths.p280a6f80, vw: "0 0 22.5 30",   teal: true,  label: "HOSPITALITY GROUPS" },
+  { d: svgPaths.p3399c200, vw: "0 0 25.5 24", teal: true, label: "SPICE BRANDS" },
+  { d: svgPaths.pbe0f218, vw: "0 0 32.9636 28.5", teal: false, label: "RETAIL CHAINS" },
+  { d: svgPaths.pc611100, vw: "0 0 30 27", teal: true, label: "WHOLESALE MARKETS" },
+  { d: svgPaths.p36df7c0, vw: "0 0 30 27", teal: false, label: "IMPORT COMPANIES" },
+  { d: svgPaths.p280a6f80, vw: "0 0 22.5 30", teal: true, label: "HOSPITALITY GROUPS" },
 ];
 
 function WhoWeServe() {
@@ -150,7 +150,7 @@ function LogisticsMonitoring() {
                 Real-Time Logistics Monitoring
               </h2>
               <p className="font-['Manrope'] font-normal text-[#c4c6d3] text-[16px] md:text-[18px] leading-[32px]">
-                Our proprietary "Atlas" system allows Ozttro partners to monitor every stage of their shipment with blockchain-backed traceability and real-time sensor data.
+                Our advanced tracking system helps partners monitor their shipments from dispatch to delivery. With live updates, complete product traceability, and real-time shipment data, you always know where your goods are and their current status.
               </p>
               {/* Feature rows */}
               <div className="flex flex-col gap-6 mt-2">

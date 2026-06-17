@@ -89,7 +89,8 @@ function Hero() {
           transition={{ duration: 0.8, delay: 0.7, ease: [0.0, 0.0, 0.2, 1] }}
           className="font-['Manrope'] font-normal text-[rgba(196,198,211,0.8)] text-[15px] md:text-[17px] leading-[28px] md:leading-[32px] mb-6 max-w-[512px]"
         >
-          Strategically sourcing and exporting the world's finest spices. Experience a seamless trade pipeline where quality meets cinematic precision.
+
+          We carefully select the world's finest spices and export them to the highest quality standards. Our goal is to provide our customers with the best quality and smooth trading experience by ensuring accuracy and reliability at every stage.
         </motion.p>
 
         {/* CTAs */}
@@ -210,7 +211,7 @@ function PremiumExports() {
               <div className="absolute bottom-8 left-8 right-8">
                 <span className="backdrop-blur-[6px] bg-black/50 border border-white/10 rounded-full px-3 py-1 font-['Manrope'] font-bold text-white text-[12px] tracking-[1.8px]">Grade A</span>
                 <h3 className="font-['Manrope'] font-semibold text-white text-[28px] md:text-[32px] tracking-[-0.32px] leading-[1.25] mt-2 mb-1">Master Spice Collection</h3>
-                <p className="font-['Manrope'] font-normal text-[#c4c6d3] text-[14px] md:text-[16px] leading-[24px]">Our signature blend of globally sourced, premium grade spices tailored for high-end culinary institutions.</p>
+                <p className="font-['Manrope'] font-normal text-[#c4c6d3] text-[14px] md:text-[16px] leading-[24px]">Premium-quality spices sourced from around the world, specially selected for exceptional taste and professional cooking.</p>
               </div>
             </motion.div>
           </StaggerItem>
@@ -225,7 +226,7 @@ function PremiumExports() {
               <div className="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent" />
               <div className="absolute bottom-8 left-8">
                 <h3 className="font-['Manrope'] font-semibold text-white text-[28px] md:text-[32px] tracking-[-0.32px] leading-[1.25] mb-1">Black Pepper</h3>
-                <p className="font-['Manrope'] font-normal text-[#c4c6d3] text-[14px] md:text-[16px] leading-[24px]">Tellicherry &amp; Malabar</p>
+                <p className="font-['Manrope'] font-normal text-[#c4c6d3] text-[14px] md:text-[16px] leading-[24px]">Premium Tellicherry &amp; Malabar Black Pepper</p>
               </div>
             </motion.div>
           </StaggerItem>
@@ -240,7 +241,7 @@ function PremiumExports() {
               <div className="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent" />
               <div className="absolute bottom-8 left-8">
                 <h3 className="font-['Manrope'] font-semibold text-white text-[28px] md:text-[32px] tracking-[-0.32px] leading-[1.25] mb-1">Ceylon Cinnamon</h3>
-                <p className="font-['Manrope'] font-normal text-[#c4c6d3] text-[14px] md:text-[16px] leading-[24px]">Alba &amp; C5 Special</p>
+                <p className="font-['Manrope'] font-normal text-[#c4c6d3] text-[14px] md:text-[16px] leading-[24px]">Premium Alba  &amp; C5 Special Grade Cinnamon</p>
               </div>
             </motion.div>
           </StaggerItem>
@@ -278,20 +279,20 @@ function PremiumExports() {
 /* ── Precision Trade ────────────────────────────────────────── */
 function PrecisionTrade() {
   const cards = [
-    { icon: svgPaths.p2256d300, vw: "0 0 20 25", title: "Certified Quality", desc: "Stringent multi-tier testing and international certifications ensuring only the finest harvest reaches your facility." },
-    { icon: svgPaths.p29083e80, vw: "0 0 25 25", title: "Global Sourcing", desc: "A vast network of farmers and cooperatives across multiple continents, securing direct-from-origin pricing." },
-    { icon: svgPaths.p29048800, vw: "0 0 25 23.75", title: "Seamless Logistics", desc: "Integrated end-to-end supply chain management with real-time global tracking and priority shipping lanes." },
-    { icon: svgPaths.p3fb16680, vw: "0 0 27.5 20", title: "Trade Finance", desc: "Flexible payment terms and strategic trade finance solutions designed for long-term enterprise partnerships." },
-    { icon: svgPaths.p1f38cd00, vw: "0 0 24.375 20", title: "Compliance Ready", desc: "Full adherence to international export laws, phytosanitary requirements, and customs documentation." },
+    { icon: svgPaths.p2256d300, vw: "0 0 20 25", title: "Certified Quality", desc: "Stringent multi-tier testing and international certifications ensuring only the finest harvest reaches your facility" },
+    { icon: svgPaths.p29083e80, vw: "0 0 25 25", title: "Global Sourcing", desc: "Working directly with trusted farmers and cooperatives around the world to ensure quality spices at competitive prices." },
+    { icon: svgPaths.p29048800, vw: "0 0 25 23.75", title: "Seamless Logistics", desc: "From sourcing to delivery, we ensure smooth operations, live tracking, and timely worldwide shipping." },
+    { icon: svgPaths.p3fb16680, vw: "0 0 27.5 20", title: "Trade Finance", desc: "Flexible payment options and financial support tailored to build strong, long-term business partnerships." },
+    { icon: svgPaths.p1f38cd00, vw: "0 0 24.375 20", title: "Compliance Ready", desc: "Fully compliant with international export regulations, quality standards, and required shipping documentation." },
     { icon: svgPaths.p3f7ba400, vw: "0 0 21.2443 21.2404", title: "Sustainability", desc: "Direct support for regenerative agriculture and ethical farming practices to protect future harvests." },
   ];
   return (
     <section className="bg-black py-16 md:py-[80px]">
       <div className="max-w-[1512px] mx-auto px-6 md:px-[100px]">
         <FadeUp className="text-center mb-10 md:mb-14">
-          <h2 className="font-['Manrope'] font-bold text-[#e5e2e3] text-[32px] md:text-[48px] tracking-[-0.96px] leading-[1.15] mb-4">Precision Trade. Strategic Scale.</h2>
+          <h2 className="font-['Manrope'] font-bold text-[#e5e2e3] text-[32px] md:text-[48px] tracking-[-0.96px] leading-[1.15] mb-4">PRECISION TRADE. STRATEGIC SCALE.</h2>
           <p className="font-['Manrope'] font-normal text-[#c4c6d3] text-[16px] leading-[24px] max-w-[576px] mx-auto">
-            Our commitment to excellence is reflected in every stage of our operations, from sourcing at the source to final delivery.
+            From careful sourcing to timely delivery, we ensure quality, reliability, and excellence at every stage.
           </p>
         </FadeUp>
         <Stagger fast className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-5">
