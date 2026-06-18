@@ -4,7 +4,7 @@ import { useState, useEffect } from "react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { motion, AnimatePresence } from "motion/react";
-import imgOzttro from "../../imports/Home/050501e02414c271f1c74ea4920a4ce4b3740e30.png";
+import imgOzttro from "../../imports/Home/logo1.png";
 
 export function Navbar() {
   const [open, setOpen] = useState(false);
@@ -50,7 +50,7 @@ export function Navbar() {
           <motion.img
             src={imgOzttro.src ?? imgOzttro}
             alt="OZTTRO"
-            className="h-[36px] md:h-[44px] w-auto"
+            className="h-[64px] md:h-[56px] lg:h-[100px] w-auto"
             whileHover={{ scale: 1.04 }}
             transition={{ type: "spring", stiffness: 300 }}
           />
@@ -66,14 +66,14 @@ export function Navbar() {
             >
               <span className={[
                 "font-['Poppins'] text-[15px] tracking-[1.6px] transition-colors duration-200",
-                isActive(l.to) ? "font-bold text-[#d4dce8]" : "font-medium text-[#656161] hover:text-[#d4dce8]",
+                isActive(l.to) ? "font-bold text-[#0266ff]" : "font-medium text-white hover:text-white/80",
               ].join(" ")}>
                 {l.label}
               </span>
               {isActive(l.to) && (
                 <motion.div
                   layoutId="nav-underline"
-                  className="absolute -bottom-1 left-0 right-0 h-0.5 bg-[#b5c4ff] rounded-full"
+                  className="absolute -bottom-1 left-0 right-0 h-0.5 bg-[#0266ff] rounded-full"
                   transition={{ type: "spring", stiffness: 380, damping: 30 }}
                 />
               )}
@@ -134,7 +134,7 @@ export function Navbar() {
                     href={l.to}
                     className={[
                       "font-['Poppins'] text-[18px] tracking-[2px] transition-colors text-center block",
-                      isActive(l.to) ? "font-bold text-[#d4dce8]" : "font-medium text-[#656161]",
+                      isActive(l.to) ? "font-bold text-[#0266ff]" : "font-medium text-white",
                     ].join(" ")}
                   >
                     {l.label}
