@@ -1,6 +1,7 @@
 "use client";
 
 import { useRef } from "react";
+import Link from "next/link";
 import { motion, useScroll, useTransform, useSpring, AnimatePresence } from "motion/react";
 import { FadeUp, FadeIn, FadeLeft, FadeRight, ScaleUp, Stagger, StaggerItem, Parallax } from "./animations";
 import svgPaths from "../../imports/Home/svg-wn5xcdn5w2";
@@ -100,20 +101,22 @@ function Hero() {
           transition={{ duration: 0.7, delay: 0.9 }}
           className="flex flex-wrap gap-4 mb-10 md:mb-14"
         >
-          <motion.button
-            whileHover={{ scale: 1.05, boxShadow: "0 12px_24px rgba(2,102,255,0.45)" }}
-            whileTap={{ scale: 0.97 }}
-            className="bg-[#0266ff] shadow-[0_8px_16px_rgba(2,102,255,0.3)] rounded-[8px] px-10 py-[17px] font-['Manrope'] font-bold text-[#f9f7ff] text-[12px] tracking-[1.8px] transition-shadow"
-          >
-            Start Sourcing
-          </motion.button>
-          <motion.button
+          <Link href="/contact">
+            <motion.button
+              whileHover={{ scale: 1.05, boxShadow: "0 12px_24px rgba(2,102,255,0.45)" }}
+              whileTap={{ scale: 0.97 }}
+              className="bg-[#0266ff] shadow-[0_8px_16px_rgba(2,102,255,0.3)] rounded-[8px] px-10 py-[17px] font-['Manrope'] font-bold text-[#f9f7ff] text-[12px] tracking-[1.8px] transition-shadow"
+            >
+              Start Sourcing
+            </motion.button>
+          </Link>
+          {/* <motion.button
             whileHover={{ scale: 1.04, backgroundColor: "rgba(255,255,255,0.12)" }}
             whileTap={{ scale: 0.97 }}
             className="backdrop-blur-[10px] bg-white/5 border border-white/20 rounded-[8px] px-10 py-[17px] font-['Manrope'] font-bold text-[#e5e2e3] text-[12px] tracking-[1.8px]"
           >
             Quality Protocol
-          </motion.button>
+          </motion.button> */}
         </motion.div>
 
         {/* Stats */}

@@ -146,7 +146,7 @@ const infoCards = [
     iconD: svgPaths.p297b0200, iconVw: "0 0 22.5 22.5",
     iconBg: "bg-[rgba(2,102,255,0.2)] text-[#B3C5FF]",
     border: "border-white/10",
-    label: "GLOBAL OPERATIONS", value: "+91 9876 543 210",
+    label: "GLOBAL OPERATIONS", value: "+91 9961420005",
   },
   {
     iconD: svgPaths.p682b940, iconVw: "0 0 20 25",
