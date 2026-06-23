@@ -17,12 +17,14 @@ export default function RootLayout({
 }: {
   children: React.ReactNode;
 }) {
+  const isMaintenance = process.env.MAINTENANCE_MODE === "true";
+
   return (
     <html lang="en">
       <body className="bg-black min-h-screen font-['Manrope']">
-        <Navbar />
+        {!isMaintenance && <Navbar />}
         <main>{children}</main>
-        <Footer />
+        {!isMaintenance && <Footer />}
       </body>
     </html>
   );
